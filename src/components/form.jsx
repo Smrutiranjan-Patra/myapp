@@ -2,7 +2,11 @@ import { useState, useEffect } from "react";
 import "./css/form.css";
 export const Form = () => {
   const [data, setData] = useState([]);
-  const [form, setForm] = useState({ title: "", ingredients: "", time: "" });
+  const [form, setForm] = useState({
+    title: "",
+    ingredients: "",
+    time: "",
+  });
   const getData = () => {
     fetch(" http://localhost:3001/users")
       .then((d) => d.json())

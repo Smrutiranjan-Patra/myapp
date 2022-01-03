@@ -1,13 +1,16 @@
 {
   "users": [
     {
-      "id": 1
+      "title": "Chicken Curry",
+      "ingredients": "Chicken, Butter, onion,Tomato",
+      "time": "30 Min",
+      "id": 2
     },
     {
-      "title": "Chicken ",
-      "ingredients": "Onion, Tomato",
-      "time": "30",
-      "id": 2
+      "title": "Biriyani",
+      "ingredients": "Rice,Masala",
+      "time": "30 Min",
+      "id": 3
     }
   ]
 }
