@@ -1,0 +1,16 @@
+.main{
+    display:flex;
+    border:1px solid blue;
+    width:20%;
+    padding:60px;
+}
+.main>div{
+width:60%;
+}
+.sub{
+    width:100%;
+    margin-top:10px;
+    background-color:blue;
+    color:white;
+    border-radius: 5px;
+}
