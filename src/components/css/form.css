@@ -1,0 +1,24 @@
+.form {
+    display: flex;
+    border: 1px solid blue;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    padding: 60px;
+}
+
+form>div {
+    display: flex;
+    width: 80%;
+    margin: 10px;
+
+}
+
+
+#submit-btn {
+    width: 100%;
+    margin-top: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
