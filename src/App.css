@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  border: 1px solid red;
+  padding: 0.5em
 }
 
 .App-logo {
@@ -37,9 +37,4 @@
   to {
     transform: rotate(360deg);
   }
-}
-
-form div {
-  text-align: left;
-  margin: 10px 0
 }
